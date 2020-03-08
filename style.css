@@ -23,6 +23,7 @@ header >.header__res> div > h1{
    margin-left: 40px;
 }
 #star{
+   margin: 0px;
    color:#f06c64;
 }
 .menu{
@@ -544,7 +545,7 @@ textarea{
 #span1{
    margin-top: 21px;
 }
-span{
+.contact__info span{
    margin-left: 23px;
    margin-top: 1px;
    width: 300px;
