@@ -7,6 +7,7 @@
       <title>Singolo</title>
    </head>
    <body>
+
       <header>
          <div class="header__res">
             <div>
@@ -15,10 +16,10 @@
             <nav>
                <div class="menu">
                   <p id="home">home</p>
-                  <span class="dot">•</span><p>services</p>
-                  <span class="dot">•</span><p>portfolio</p>
-                  <span class="dot">•</span><p>about</p>
-                  <span class="dot">•</span><p>contact</p>
+                  <span class="dot">•</span><a href="#services"><p>services</p></a>
+                  <span class="dot">•</span><a href="#portfolio"><p>portfolio</p></a>
+                  <span class="dot">•</span><a href="#about"><p>about</p></a>
+                  <span class="dot">•</span><a href="#contact"><p>contact</p></a>
                </div>
             </nav>
          </div>
@@ -60,7 +61,7 @@
             <div class="chevR"></div>
          </div>
       </main>
-      <div class="services">
+      <div class="services" id="services">
               <div class="info">
                   <h2>Our Services</h2>
                   <h4>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</h4>
@@ -99,10 +100,10 @@
               </div>
           </div>
 
-          <div class="portfolio">
+          <div class="portfolio" id="portfolio">
              <h1>Portfolio</h1>
              <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
-             <<div class="portfolio__nav">
+             <div class="portfolio__nav">
                 <a id="awhite"href="#">All</a>
                 <a href="#">Web Design</a>
                 <a href="#">Graphic Design</a>
@@ -122,7 +123,7 @@
                 <div class="pic"><img src="assets/Project@1X (7).png" alt="pro"></div>
                 <div class="pic"><img src="assets/Project@1X (8).png" alt="pro"></div>
              </div>
-             <div class="about">
+             <div class="about" id="about">
                 <h1>About Us</h1>
                 <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
                 <div class="employee">
@@ -164,7 +165,7 @@
              </div>
           </div>
 
-          <div class="footer__wrap">
+          <div class="footer__wrap" id="contact">
              <h2 id="footer__h2">Get a Quote</h2>
              <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
              <div class="wrap">
@@ -208,4 +209,5 @@
           </div>
 
    </body>
+   <script src="script.js"></script>
 </html>
