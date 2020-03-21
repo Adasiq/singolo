@@ -9,11 +9,11 @@ a{
    color: #fff;
 }
 a:hover{
-   color: red;
+   color:#f06c64;
 }
 .active{
-   border-bottom: 3px solid red;
-   color: #fff;
+   border-bottom: 3px solid #f06c64;
+   color:#f06c64;
 }
 header{
    width: 100%;
@@ -74,19 +74,31 @@ menu{
 }
 .main{
    display: flex;
-   background-color: #f06c64;
-   width: 100%;
-   height: 600px;
-   align-items: center;
+   width: 1020px;
+   height: 589px;
+   align-items: flex-start;
    justify-content: center;
    border-bottom: 6px solid #ea676b;
+   margin: 0 auto;
 }
 .slider{
    display: flex;
    width: 1020px;
    justify-content: center;
-}
+   background-color: #f06c64;
 
+}
+.slider2{
+   display: flex;
+   width: 1020px;
+   padding: auto;
+   justify-content: center;
+   background-color: #648bf0;
+   display: none;
+}
+.slider2 > img{
+   margin: 30px auto 0px auto;
+}
 .vertical__phone{
    margin: 53px 0px;
    width: 240px;
@@ -127,6 +139,7 @@ menu{
    margin-top: 24px;
    border: 4px solid #c6c6c6;
    border-radius: 4px;
+   background: url("assets/Layer 6@1X.png");
 }
 .homeBtn{
    background-image: url('assets/Circle@1X.png');
@@ -175,7 +188,7 @@ menu{
 
 .horizontal__phone .screen{
    width: 325px;
-   background-image: url('assets/Layer 5@1X.png');
+   background: url('assets/Layer 5@1X.png');
    height: 180px;
    margin: 0px;
    /*border: 4px solid #c6c6c6;*/
@@ -382,7 +395,7 @@ h4{
    margin-left: 41px;
    margin-top: 11px;
 }
-#awhite{
+.portfolio__nav a.awhite{
    color: #fff;
    border: 1px solid #fff;
 }
@@ -399,6 +412,7 @@ h4{
    border-radius: 5px;
    font-size: 12px;
    margin-right: 10px;
+
 }
 .gallery{
    width: 944px;
@@ -414,6 +428,9 @@ h4{
 .pic{
    width: 223px;
    height: 190px;
+}
+.pic_active{
+   border: 3px solid red;
 }
 .gallery .pic{
    background-image: url("assets/Project@1X.png") top center no-repeat;
@@ -530,7 +547,7 @@ textarea{
    font-size: 12px;
    text-align: justify;
    color: rgba(244, 140, 143, 255);
-   margin-bottom: 63px;
+   margin-bottom: 20px;
 }
 .forms{
    width: 620px;
@@ -603,4 +620,21 @@ footer{
    justify-content: center;
    margin-right: 8px;
 
+}
+
+dialog{
+   top: 2800px;
+   width: 30%;
+   margin: 0px auto;
+   height: 300px;
+   border-radius: 30px;
+}
+#show{
+   font-family: "Lato";
+   font-weight: bold;
+   padding: 5px 10px;
+   background-color: yellow;
+   border: 2px solid red;
+   border-radius: 5px;
+   margin-bottom: 20px;
 }
